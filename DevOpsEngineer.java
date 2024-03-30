@@ -21,9 +21,7 @@ class DevOpsEngineer extends Employee {
         System.out.println("Bonus: " + bonus);
         System.out.println("Total Salary: " + calculateTotalSalary());
     }
-}
 
- class Main{
     public static void main(String[] args) {
         Employee employee = new Employee(1, "John Doe", 50000);
         employee.displayEmployeeDetails();
